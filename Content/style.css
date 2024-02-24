@@ -1,0 +1,245 @@
+/* Removing empty spaces */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, serif, monospace, fantasy;
+}
+
+/* --------------------BACKGROUND IMAGE-------------------- */
+/* Inserting background image */
+.banner{
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    background-image: url(img/background.jpeg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.content{
+    float: right;
+    width: 97%;
+}
+
+/* --------------------NAVBAR-------------------- */
+/* Aligning logo and links */
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Border */
+    border-bottom: solid;
+    border-radius: 30px;
+    border-color: floralwhite;
+    min-width: 1400px;
+}
+
+/* Logo style */
+.logo{
+    width: 10%;
+    cursor: pointer;
+    margin: 0 0 0 80px;
+}
+
+/* SIDEBAR */
+.main-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 180px;
+    z-index: 100;
+    /* background */
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* prevent text from going bottom */
+    overflow: hidden;
+    white-space: nowrap; 
+    box-shadow: 0 0 10px #d4d4d4;
+    /* transition */
+    transition: 0.3s ease;
+}
+
+.main-menu:hover{
+    width: 12%;
+    overflow-y: scroll;
+}
+
+.menu-item{
+    padding: 10px; 
+    /*align center*/
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /*align center*/
+    display: block;
+    transform: translate( 0%, 18%);
+}
+
+.menu-item:hover{
+    cursor: pointer;
+}
+
+.main-menu .menu-item .far, .fas{
+    font-size: 25px;
+    width: 35px;
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+}
+
+.main-menu ul a{
+    color: white;
+    font-family: "Lucida Console";
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 30px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 10px;
+}
+/* --------------------TEXT STYLES-------------------- */
+/* h1 style (Title) */
+h1{
+    width: 90%;
+    margin: 30 0 0 80px;
+    text-align: left;
+    color: white;
+    font-size: 38px;
+    font-family: sans-serif;
+    text-decoration: underline overline;
+    text-decoration-color: cyan;
+    padding-bottom: 10px;
+}
+
+/* content text style */
+.bullet{
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}   
+
+/* h2 style (Sub-Title) */
+h2{
+    font-weight: bold;
+    font-size: 27px;
+    font-family: monospace;
+    text-decoration: underline;
+    text-decoration-color: cyan;
+}
+
+h3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-style: italic;
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* 1st level bullet style */
+.bullet1{
+    margin: 40px 0 0 10px;
+    font-style: italic;
+    background: url(img/glove.png) no-repeat left 1px;
+    padding-left: 40px;
+    display: block;
+}
+
+/* 2nd level bullet style */
+.bullet2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    margin: 15px 0 0 10px;
+    background: url(img/axe.png)no-repeat left -10px;
+    padding-left: 40px;
+    display: block;
+}
+
+/* --------------------IMAGE STYLES-------------------- */
+/* Hero image style */
+.imgs{
+    width: 85%;
+    height: 85%;
+}
+
+/* Villain image style */
+.img{
+    width: 105%;
+    height: 105%;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+/* --------------------BUTTON STYLES-------------------- */
+/* button style */
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 50px 0 50px 43%;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover{
+    color: darkblue;
+    background-color: white;
+}
+
+/* --------------------VILLAIN PAGE ALIGNMENT STYLES-------------------- */
+/* body style */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* --------------------CREDIT PAGE LINK STYLES-------------------- */
+.credit a{
+    font-family: "Lucida Console", monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    white-space: nowrap;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 15px;;
+    width: auto; 
+    border: 1px solid #a4ffa9;
+    overflow: hidden;
+    text-overflow: clip;
+    background: url(img/glove.png) no-repeat left 1px;
+    padding-left: 40px;
+    display: block;
+}

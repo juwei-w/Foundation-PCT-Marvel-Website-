@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial, Helvetica", sans-serif, "Lucida Console", monospace;
+}
+
+/* --------------------BACKGROUND IMAGE-------------------- */
+.banner{
+    background: url("background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    min-height: 3500px;
+    transition: all .5s;
+}
+
+/* --------------------NAVBAR-------------------- */
+/* top navbar sizing */
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Border */
+    border-bottom: solid;
+    border-radius: 30px;
+    border-color: floralwhite;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+    margin: 0 0 0 80px;
+}
+
+/*------------------CONTENT--------------------*/
+.content{
+    float: right;
+    width: 98%;
+}
+
+.title{
+    color: floralwhite;
+    text-align: center;
+    font-style: italic;
+}
+
+.summary{
+    float: left;
+    color: floralwhite;
+    width: 60%;
+    height: 100%;
+    margin-left: 4%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+aside{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    justify-content: center;
+    text-align: center;
+    border: 3px solid white;
+}
+
+p{
+    font-size: 17px;
+    font-family: 'Lucida Sans Unicode';
+}
+
+/* --------------------SLIDEBAR-------------------- */
+.main-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 65%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 180px;
+    z-index: 100;
+    /* background */
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* prevent text from going bottom */
+    overflow: hidden;
+    white-space: nowrap; 
+    box-shadow: 0 0 10px #d4d4d4;
+    /* transition */
+    transition: 0.3s ease;
+}
+
+.main-menu:hover{
+    width: 12%;
+    overflow-y: scroll;
+}
+
+.menu-item{
+    padding: 10px; 
+    /*align center*/
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /*align center*/
+    display: block;
+    transform: translate( 0%, 18%);
+}
+
+.menu-item:hover{
+    cursor: pointer;
+}
+
+.main-menu .menu-item .far, .fas{
+    font-size: 25px;
+    width: 35px;
+    color: rgb(255, 255, 255);
+    padding-right: 5px;
+}
+
+.main-menu ul a{
+    color: white;
+    font-family: "Lucida Console";
+    transition: .4s;
+}
+
+ul li:hover a{
+    padding-left: 30px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 10px;
+}
+/* --------------------BUTTON STYLES-------------------- */
+/* button style */
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 50px 0 50px 43%;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover{
+    color: darkblue;
+    background-color: white;
+}
+
+
+.bullet2{
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 20px;
+    color: white;
+    background-color: black;
+}
+
+/* --------------------TABLE-------------------- */
+/* Table */
+table{
+    background-color: transparent;
+    border-collapse: separate;
+    border-color: rgb(211,211,211);
+    width: 90%;
+    margin-bottom: 50px;
+    /*align center*/
+    display: block;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 20px);
+}
+
+th,td{
+    border: 2.5px solid rgb(211,211,211);
+    border-collapse: separate;
+    background-color: transparent;
+    padding: 20px;
+    font-size: 10px;
+
+}
+
+.img{
+    min-width: 60%;
+    margin-top: 20px;
+    border: 3px solid white;
+}
