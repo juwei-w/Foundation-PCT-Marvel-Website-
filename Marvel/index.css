@@ -67,17 +67,11 @@ table{
 
 iframe{
     width: 100%;
-    height: 100%;
-    min-width: 400px;
-    min-height: 350px;
+    aspect-ratio: 16/9;
+    height: auto;
     border: 2px solid;
     border-color: rgb(245, 245, 245, 0.9);
-    position: relative;
-    /*align center*/
     display: block;
-    left: 50%;
-    right: 50%;
-    transform: translate( -50%, 0%);
 }
 
 .video{
@@ -176,7 +170,7 @@ button{
     width: 200px;
     padding: 15px 0;
     text-align: center;
-    margin: 50px 0 50px 43%;
+    margin: 50px auto;
     border-radius: 15px;
     font-weight: bold;
     border: 2px solid #009688;
@@ -184,10 +178,6 @@ button{
     color: white;
     cursor: pointer;
     display: block;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    transform: translate(-367%, 50%);
 }
 
 /* Button hover */

@@ -217,12 +217,9 @@ button:hover{
     background-color: white;
 }
 
-/* --------------------VILLAIN PAGE ALIGNMENT STYLES-------------------- */
-/* body style */
+/* --------------------PAGE BASE LAYOUT-------------------- */
+/* Avoid centering the whole page to prevent mid-page starting position */
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 

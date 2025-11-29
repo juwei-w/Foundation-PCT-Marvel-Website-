@@ -5,8 +5,8 @@
 }
 
 .content{
-    float: right;
-    width: 103%;
+    float: none;
+    width: 100%;
 }
 
 /* --------------------NAVBAR-------------------- */
@@ -147,9 +147,8 @@ ul li:hover a{
     background: url("background.jpg") no-repeat;
     background-position: center;
     background-size: cover;
-    height: auto;
-    min-height: 5800px;
-    transition: all .5s;
+    min-height: 100vh;
+    transition: all .3s ease;
 }
 
 /* --------------------BUTTON STYLES-------------------- */
@@ -195,14 +194,8 @@ table{
     background-color: transparent;
     border: 1px solid whitesmoke;
     border-collapse: collapse;
-    width: 80%;
-    margin-bottom: 50px;
-    /*align center*/
-    display: block;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, 1%);
+    width: 90%;
+    margin: 20px auto 30px auto;
 }
 
 th,td{
