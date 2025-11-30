@@ -134,7 +134,7 @@ Each page follows consistent design patterns with:
 
 ## 🔗 Resources
 
-- **Repository:** [github.com/juwei-w/Foundation-PCT-Marvel-Website-](https://github.com/juwei-w/Foundation-PCT-Marvel-Website-)
+- **Repository:** [github.com/juwei-w/Marvel-Website](https://github.com/juwei-w/Marvel-Website)
 - **Issues:** [Report a bug](https://github.com/juwei-w/Foundation-PCT-Marvel-Website-/issues)
 
 ---
